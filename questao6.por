@@ -1,6 +1,7 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica
+ --> mat
 	
 	funcao inicio()
 	{
@@ -18,6 +19,8 @@ programa
 		maior1 = mat.maior_numero(primeiro, segundo)
 		maior2 = mat.maior_numero(terceiro, quarto)
 		maior_mesmo = mat.maior_numero(maior1, maior2)
+
+		escreva("O maior número é ", maior_mesmo)
 	}
 }
 /* $$$ Portugol Studio $$$ 

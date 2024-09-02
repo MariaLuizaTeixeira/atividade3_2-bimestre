@@ -1,6 +1,7 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica
+ --> mat
 	
 	funcao inicio()
 	{
@@ -31,6 +32,8 @@ programa
 
 		maior1 = mat.menor_numero(primeiro, segundo)
 		menor = mat.menor_numero(maior1, terceiro)
+
+		escreva(menor, meio, maior1)
 	}
 }
 /* $$$ Portugol Studio $$$ 

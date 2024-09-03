@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
@@ -32,9 +32,21 @@ programa
 		maior1 = mat.menor_numero(primeiro, segundo)
 		menor = mat.menor_numero(maior1, terceiro)
 
-		se( menor + meio > maior_mesmo)
+		se(menor + meio > maior_mesmo)
 		{
-			escreva("É possível fazer esse triângulo")
+			se(maior_mesmo == menor e maior_mesmo == meio e meio == menor)
+			{
+					escreva("Esse triângulo é equilátero.")
+			}
+			se(meio == menor e meio != maior_mesmo)
+			{
+					escreva("Esse triângulo é isóceles.")
+			}
+			se(maior_mesmo != menor e maior_mesmo != meio e meio != menor)
+			{
+					escreva("Esse triângulo é escaleno.")
+			}
+				
 		}
 		senao
 		{

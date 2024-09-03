@@ -33,7 +33,7 @@ programa
 		maior1 = mat.menor_numero(primeiro, segundo)
 		menor = mat.menor_numero(maior1, terceiro)
 
-		escreva(menor, meio, maior1)
+		escreva(maior1, meio, menor)
 	}
 }
 /* $$$ Portugol Studio $$$ 
